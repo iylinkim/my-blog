@@ -26,17 +26,24 @@ h2{
   background-color: #efefef !important;
 }
 
-.main{
-  // justify-content: space-between !important;
-}
-
 .aside{
   opacity: 1 !important;
 }
 
-.content{
-  // width: 80% !important;
-  // margin-left: auto !important;
+.footer{
+  .copyright{
+    display: flex;
+    align-items: center;
+    
+    .page-view-counter{
+      display: inline-block;
+      margin-left: 10px;
+
+      > a{
+        display: flex;
+      }
+    }
+  }
 }
 
 
